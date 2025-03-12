@@ -5,7 +5,7 @@ public:
         string temp = s;
         temp += s;
         temp  = temp.substr(1,2*n-2);
-        vector<int> v(n*2);
+        vector<int> v(n);
         v[0] = 0;
         int i = 1, j = 0;
         while(i < n){
