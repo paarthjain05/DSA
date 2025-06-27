@@ -8,7 +8,6 @@ public:
         bool inc = true;
         for(char c:s){
             arr[i]+=c;
-            cout << c << i;
             if(inc)i = i+1;
             else i = i-1;
             if(i == 0)inc = true;
